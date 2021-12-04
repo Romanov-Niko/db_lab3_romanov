@@ -1,0 +1,299 @@
+{
+  "attributes": [
+    {
+      "id": 1,
+      "name": "Strength"
+    },
+    {
+      "id": 2,
+      "name": "Agility"
+    },
+    {
+      "id": 3,
+      "name": "Intelligence"
+    }
+  ],
+  "game_sessions": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Abaddon",
+      "intelligence": 18,
+      "strength": 23,
+      "agility": 23,
+      "main_attribute": 1
+    },
+    {
+      "id": 2,
+      "name": "Alchemist",
+      "intelligence": 25,
+      "strength": 22,
+      "agility": 25,
+      "main_attribute": 1
+    },
+    {
+      "id": 3,
+      "name": "Luna",
+      "intelligence": 23,
+      "strength": 21,
+      "agility": 18,
+      "main_attribute": 2
+    },
+    {
+      "id": 4,
+      "name": "Medusa",
+      "intelligence": 23,
+      "strength": 17,
+      "agility": 22,
+      "main_attribute": 2
+    },
+    {
+      "id": 5,
+      "name": "Puck",
+      "intelligence": 23,
+      "strength": 17,
+      "agility": 22,
+      "main_attribute": 3
+    },
+    {
+      "id": 6,
+      "name": "Pugna",
+      "intelligence": 24,
+      "strength": 19,
+      "agility": 24,
+      "main_attribute": 3
+    }
+  ],
+  "game_session_character": [
+    {
+      "game_session_id": 1,
+      "character_id": 1
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 5
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 6
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 1
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 2
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 4
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 6
+    },
+    {
+      "game_session_id": 3,
+      "character_id": 1
+    },
+    {
+      "game_session_id": 3,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 3,
+      "character_id": 4
+    },
+    {
+      "game_session_id": 3,
+      "character_id": 5
+    },
+    {
+      "game_session_id": 4,
+      "character_id": 1
+    },
+    {
+      "game_session_id": 4,
+      "character_id": 5
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Carry"
+    },
+    {
+      "id": 2,
+      "name": "Support"
+    },
+    {
+      "id": 3,
+      "name": "Nuker"
+    },
+    {
+      "id": 4,
+      "name": "Pusher"
+    },
+    {
+      "id": 5,
+      "name": "Initiator"
+    },
+    {
+      "id": 6,
+      "name": "Escaper"
+    },
+    {
+      "id": 7,
+      "name": "Disabler"
+    }
+  ],
+  "character_role": [
+    {
+      "character_id": 1,
+      "role_id": 1
+    },
+    {
+      "character_id": 1,
+      "role_id": 3
+    },
+    {
+      "character_id": 1,
+      "role_id": 4
+    },
+    {
+      "character_id": 1,
+      "role_id": 5
+    },
+    {
+      "character_id": 2,
+      "role_id": 1
+    },
+    {
+      "character_id": 2,
+      "role_id": 4
+    },
+    {
+      "character_id": 2,
+      "role_id": 5
+    },
+    {
+      "character_id": 2,
+      "role_id": 6
+    },
+    {
+      "character_id": 3,
+      "role_id": 1
+    },
+    {
+      "character_id": 3,
+      "role_id": 3
+    },
+    {
+      "character_id": 4,
+      "role_id": 1
+    },
+    {
+      "character_id": 4,
+      "role_id": 3
+    },
+    {
+      "character_id": 4,
+      "role_id": 6
+    },
+    {
+      "character_id": 5,
+      "role_id": 2
+    },
+    {
+      "character_id": 5,
+      "role_id": 3
+    },
+    {
+      "character_id": 5,
+      "role_id": 5
+    },
+    {
+      "character_id": 5,
+      "role_id": 6
+    },
+    {
+      "character_id": 6,
+      "role_id": 2
+    },
+    {
+      "character_id": 6,
+      "role_id": 3
+    },
+    {
+      "character_id": 6,
+      "role_id": 4
+    }
+  ],
+  "game_session_character_insert_with_loop": [
+    {
+      "game_session_id": 3,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 3,
+      "character_id": 1
+    },
+    {
+      "game_session_id": 5,
+      "character_id": 4
+    },
+    {
+      "game_session_id": 4,
+      "character_id": 2
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 2,
+      "character_id": 4
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 5
+    },
+    {
+      "game_session_id": 4,
+      "character_id": 6
+    },
+    {
+      "game_session_id": 4,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 3
+    },
+    {
+      "game_session_id": 1,
+      "character_id": 1
+    }
+  ]
+}
